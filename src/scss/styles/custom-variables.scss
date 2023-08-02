@@ -1,0 +1,10 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+
+$link-color: #222222;
+$secondary: #999999;
+$breadcrumb-divider: quote(">");
+
+
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/root";
