@@ -1,3 +1,26 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-@import "./styles/custom-variables"
+.breadcrumb .breadcrumb-item a {
+  text-decoration: none;
+  color: $body-color;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+
+.breadcrumb-item {
+  font-size: $small-font-size;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  width: 0.8rem;
+}
+
+
+
+@import "./styles/custom-variables";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
