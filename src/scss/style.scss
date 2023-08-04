@@ -1,5 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+
 .breadcrumb .breadcrumb-item a {
   text-decoration: none;
   color: $body-color;
@@ -11,11 +13,18 @@
 
 
 .breadcrumb-item {
+  display: inline-flex;
+  align-items: center;
   font-size: $small-font-size;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
-  width: 0.8rem;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 0.9em;
+  height: 0.9em;
+  min-width: 12px;
 }
 
 
